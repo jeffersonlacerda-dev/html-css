@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+
+
+        }
+        article{
+            background-color: rgb(69, 69, 235);
+            margin: 10px;
+            padding: 5px;
+    
+        }
+        article > aside{
+            background-color: rgb(70, 177, 243);
+            text-align: center;
+        }
+        h2{
+            color: white;
+        }
+         p{
+            color: rgb(255, 255, 255);
+        }
+
+        nav{
+            background-color: rgb(148, 147, 147);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.74);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: yellow;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.74);
+        }
+        
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        #bola{
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aline Lacerda & Preteção Financeira</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Segurança Financeira Familiar</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Por que você deveria ter o Seguro Prudential</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ex eos tenetur temporibus quasi sunt amet sint eaque vitae perspiciatis nostrum veritatis harum, provident excepturi repellat natus corporis quibusdam repudiandae.</p>
+                <aside>
+                    <p>Artigo escrito por Aline Gutierrez Lacerda</p>
+                </aside>
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Jefferson Louiz Pinheiro Lacerda</p>
+
+
+    </footer>
+</body>
+</html>

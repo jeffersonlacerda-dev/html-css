@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /*
+
+          #   = id
+          .   = class
+          :   = pseudo-class
+          ::  = pseudo-element
+          >   = clildren
+
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{ /* no geral dos links*/
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{ /* quando já visitei o link*/
+            color: rgb(245, 64, 64);
+        }
+        a:hover{ /* quando passar o mouse em cima*/
+            text-decoration: underline;
+            color: yellowgreen;
+        }
+        a:active{ /* quando clicar em cima*/
+            color: blueviolet;
+        }
+        a::after{ /* antes do link, direto no conteúdo*/
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(167, 164, 164);
+        }
+        a::before{
+            content: '⭢';
+            color: black;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/jefferson.louiz.338658" target="_blank">Meu Facebook</a></li>
+        <li><a href="https://www.instagram.com/jeff.dev.99/" target="_blank">Meu Instagram</a></li>
+        <li><a href="https://t.me/jeffersonlouiz99" target="_blank">Meu Telegram</a></li>
+
+    </ul>
+</body>
+</html>

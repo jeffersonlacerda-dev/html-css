@@ -1,0 +1,83 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Sixtyfour+Convergence&display=swap');
+@font-face {
+  font-family: ;
+  src: url('fontes/love\ story\ ttf.ttf') format(truetype), url(fontes/OldLondon.ttf) format(truetype), url(fontes/OldLondonAlternate.ttf) format(truetype), url(fontes/Olondon_.otf) format(opentype), url(fontes/Olondona.otf) format(opentype);
+  font-weight: normal;
+    font-size: normal;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: bold;
+font-style: italic;
+h1{
+    font-size: 3em;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+
+}
+h2{
+    font-size: 2em;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+}
+p{
+    font-family: "Qwitcher Grypen", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+}
+
+
+
+
+/* shorthand font: 
+font-style > font-weight > font-size > font-family 
+ */
+ /*
+ nao confundir : weight(peso) , width(largura) , height(altura)
+
+   pesos:  lighter , normal , bold , bolder 
+   */
+
+/* 
+Medidas Absolutas: 
+
+cm->  centímetros 
+mm->  milímetro
+in->  polegada
+px->  pixel 
+pt->  ponto
+pc->  paica
+
+Medidas Relativas:
+
+em->   relativo ao tamanho natural da fonte
+ex->   relativo a altura x da fonte
+rem->  tipo em, mas relativo a fonte configurada no body
+vw->   relativo a altura da View Port
+vh->   realtivo a altura da View Port
+%->    porcentagem
+
+   ALTRURA PADRÃO: 16px ou 1em   ( 16px é = 1em )
+  
+   nao confundir : weight(peso) , width(largura) , height(altura)
+
+   pesos:  lighter , normal , bold , bolder
+*/
