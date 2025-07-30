@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+           
+        }
+
+        h1{
+            background-color: rgb(78, 78, 233);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        form{
+            background-color: lightslategray;
+            padding: 20px;
+            text-align: center;
+        }
+        #login{
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Facebook</h1>
+
+    <form action="cadastro.php" autocomplete="on">
+
+        <p id="login"><label for="inome">Usuário:</label>
+             <input type="text" name="Nome" id="inome"></p>
+
+        <p id="login"><label for="isobrenome">Senha:</label> <input type="text" name="sobrenome" id="isobrenome"> </p>
+        
+        <p><input type="submit" value="ENVIAR"></p>
+        
+    </form>
+
+    
+</body>
+</html>
