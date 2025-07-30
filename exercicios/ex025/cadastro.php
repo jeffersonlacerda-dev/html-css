@@ -1,0 +1,1 @@
+Para dar continuidade em PHP deve-se fazer o curso do Gustavo Guanabara.
